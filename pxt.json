@@ -1,0 +1,24 @@
+{
+    "name": "websocket test ",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "pxt-sockets": "github:pelikhan/pxt-sockets#v0.0.23"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "2.0.56",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ]
+}
