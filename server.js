@@ -27,6 +27,9 @@ wss.on('connection', (ws) => {
 });
 
 // Start server
-server.listen(port, () => {
-  console.log(`✅ Server listening on port ${port}`);
+const PORT = process.env.PORT || 10000;
+
+server.listen(PORT, () => {
+  console.log(`Server started on port ${PORT}`);
 });
+
